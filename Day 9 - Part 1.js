@@ -33,7 +33,7 @@ var result = 0;
 for (var i = 0; i < arr.length; i++) {
   if (arr[i] !== "(" && arr[i] !== "\n") {
     newArr.push(arr[i]);
-    console.log(i, typeof arr[i]);
+    //console.log(i, typeof arr[i]);
   } else if (arr[i] === "(") {
     var marker = parseMarker(arr, i);
     //console.log(marker);
